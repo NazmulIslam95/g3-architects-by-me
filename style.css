@@ -5,7 +5,7 @@
   font-family: "Work Sans", sans-serif;
 }
 body {
-  /* margin: 0px; */
+  margin: 0px;
 }
 
 .btn-primary {
@@ -80,8 +80,12 @@ nav li a {
     }
 }
 
-@media screen and (min-width:576px) and (max-width: 992px) {
+@media screen and (min-width:576px) and (max-width: 960px) {
     header{
         padding: 50px;
+    }
+
+    nav{
+        flex-direction: column;
     }
 }
