@@ -8,8 +8,13 @@ body {
   /* margin: 0px; */
 }
 
-.btn-primary{
-
+.btn-primary {
+  border-radius: 8px;
+  color: #fff;
+  background: #ff900e;
+  border: none;
+  cursor:alias;
+  padding: 20px 25px;
 }
 header {
   background: rgba(255, 144, 14, 0.1);
@@ -59,7 +64,24 @@ nav li a {
 }
 
 .banner-description {
-  color:#727272;
-  /* font-size: 1rem
-  font-weight: 400; */
+  color: #727272;
+}
+.banner img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width: 992px) {
+    header{
+        padding: 50px;
+    }
 }
